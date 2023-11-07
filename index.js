@@ -6,7 +6,7 @@ const DeliveryModel = require('./models/delivery');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken'); // Add this line for JWT
 const app = express();
-const PORT = 3000;
+const PORT = 3001;
 
 const dbUrl = "mongodb+srv://sobiya:RS6jdiNtjsGWAquB@cluster0.cklxih7.mongodb.net/Dress?retryWrites=true&w=majority";
 const connectionParams = {
